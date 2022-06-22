@@ -3,13 +3,13 @@ import xml.etree.ElementTree as ET
 
 #Get product details:
 
-tree1 = ET.parse("ВашПуть/Intim_Ali_allfids_2.xml")
+tree1 = ET.parse("YourPath/Intim_Ali_allfids_2.xml")
 
 # Тут хотелось бы отметить, что возможно
 # он не будет парсить документ Intim_Ali_allfids_2 т.к он неправильный изнутри. Нету резделения тэгов.
 
 root1 = tree1.getroot()
-tree2 = ET.parse("ВашПуть/p5s_full_stock.xml")
+tree2 = ET.parse("YourPath/p5s_full_stock.xml")
 root2 = tree2.getroot()
 # Парсим файлы
 counting = 1
